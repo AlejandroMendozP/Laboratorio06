@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+</head>
+<body>
+    <header><h1>Cursos</h1></header>
+    <nav>
+        <h2>Menu de navegacion</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Suscripcion - Bolentin de noticias</a></li>
+            <li><a href="validacion.html">Validacion datos</a></li>
+            <li><a href="lenguajes.html">Lenguajes de programacion</a></li>
+        </ul>
+    </nav>
+    <h2>Inscripcion a curso</h2>
+    <form action="#" method="post">
+    <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+        <br><br>
+    <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+        <br><br>
+    <label for="dni">DNI:</label>
+        <input type="text" id="DNI" name="DNI" placeholder="Ingrese su DNI" required>
+        <br><br>
+    <label for="correo">Correo electronico:</label>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com">
+        <br><br>
+    <lable for="cursos"> ¿Qué cursos desea seleccionar?
+                <br>
+                <input type="radio" id="idweb" name="cursos" value="idweb">
+                <label for="idweb">IDWEB</label>
+                <input type="radio" id="dsoo" name="cursos" value="dsoo">
+                <label for="dsoo">DSOO</label>
+                <input type="radio" id="ed2" name="cursos" value="ed2">
+                <label for="ed2">Estructuras Discretas II</label>
+            </lable>
+            <br><br>
+        <lable for="modalidad"> ¿Qué modalidad desea?
+                <br>
+                <input type="radio" id="virtual" name="modalidad" value="virtual">
+                <label for="virtual">Presencial</label>
+                <input type="radio" id="presencial" name="modalidad" value="presencial">
+                <label for="presencial">Presencial</label>
+            </lable>
+            <br><br>
+        <lable for="horarios"> Horarios disponibles:
+                <br>
+                <input type="checkbox" name="horarios">
+                Mañana
+                <input type="checkbox" name="horarios">
+                Tarde
+                <input type="checkbox" name="horarios">
+                Noche
+            </lable>
+            <br><br>
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea id="mensaje" name="mensaje" placeholder="Comentarios adicionales"></textarea>
+            <br><br>
+        <button type="submit">Registrarse</button>
+        <button type="reset">Borrar formulario</button>
+    </form>
+</body>
+</html>
