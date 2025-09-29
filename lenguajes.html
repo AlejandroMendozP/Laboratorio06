@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguajes</title>
+</head>
+<body>
+    <header><h1>Lenguajes de programacion</h1></header>
+    <nav>
+        <h2>Menu de navegacion</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Suscripcion - Bolentin de noticias</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Formulario de preferencias</h2>
+        <form action="#" method="post">
+            <label for="imagen">Foto de perfil:</label>
+            <input type="file" id="imagen" name="imagen">
+            <br><br>
+            <lable for="lenguajes"> ¿Qué lenguajes conoces?
+                <br>
+                <input type="checkbox" name="terminos">
+                HTML
+                <input type="checkbox" name="terminos">
+                CSS
+                <input type="checkbox" name="terminos">
+                Python
+                <input type="checkbox" name="terminos">
+                JavaScript
+                <input type="checkbox" name="terminos">
+                Java
+            </lable>
+            <br><br>
+            <lable for="cantidad">¿Cuántas horas de programación estudias al día?</lable>
+            <input type="number" id="cantidad" name="cantidad" min="0" max="24" step="1">
+            <br><br>
+            <button type="submit">Guardar</button>
+        </form>
+    </main>
+</body>
+</html>
